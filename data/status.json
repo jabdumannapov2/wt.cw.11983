@@ -1,0 +1,18 @@
+[
+    {
+        "id":"1",
+        "name":"pregnant"
+    },
+    {
+        "id":"2",
+        "name":"on vacation"
+    },
+    {
+        "id":"3",
+        "name":"active"
+    },
+    {
+        "id":"4",
+        "name":"fired"
+    }
+]
