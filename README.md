@@ -8,6 +8,16 @@ HR Service is an HR management application demo that allows to create, update an
 - Git - in order to clone and control the version of the project locally
 - Node.js - allowing Javascript run on server side
 
+## Project structure
+
+- app.js - application entry point
+- package.json - application metadata file
+- .gitignore - ignored files list when commit/pushing to repository
+- assets - static files (css, js)
+- data - folder containing pseudo database files
+- routes - middleware functions using to route request and respond them
+- views - presentation layer of data coming/going to/from REST API
+
 ## Running the application locally
 
 Please clone the project from public repository
