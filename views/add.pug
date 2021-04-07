@@ -3,32 +3,43 @@ block hr_service
     
     h1= title
 
-    form.add(onsubmit='return false;')
-        input#employee_id(type='hidden')
-        label(for='name')
-            b Name
-        input#name(type='text' placeholder='' name='name' required='')
-        br
-        label(for='dob')
-            b Birth Date
-        input#dob(type='date' placeholder='' name='dob' required='')
-        br
-        label(for='occupation')
-            b Occupation
-        select#occupation(name='occupation' required='')
-        br
-        label(for='status')
-            b Status
-        select#status(name='status' required='')
-        br
-        textarea#other(name='other')
+    div.form-container
+        form.add(onsubmit='return false;')
+            input#employee_id(type='hidden' style='color: #ccc; margin-bottom: 5px;')
+            label(for='name')
+                b Name
+            br
+            input#name(type='text' placeholder='' name='name' required='')
+            br
+            label(for='dob')
+                b Birth Date
+            br
+            input#dob(type='date' placeholder='' name='dob' required='')
+            br
+            label(for='occupation')
+                b Occupation
+            br
+            select#occupation(name='occupation' required='')
+            br
+            label(for='status')
+                b Status
+            br
+            select#status(name='status' required='')
+            br
+            label(for='other')
+                b Other
+            br            
+            textarea#other(name='other')
 
-        hr
-        
-        button#add add
-    
-    button
-        a(href='/') back
+            hr
+            
+            button
+                a(href='/') back    
+            span &nbsp;
+            button#add add
+                            
+
+
 
     script(src='/assets/add.js')
     script window.occupations = `#{occupations}`; window.statuses = `#{statuses}`; window.action = `#{action}`; window.employee_id = `#{id}`;

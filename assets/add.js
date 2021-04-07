@@ -6,7 +6,6 @@ var employee_id = '';
 window.onload = function(){
     occupations = JSON.parse(window.occupations.replace(/&quot;/g,'"'));
     statuses = JSON.parse(window.statuses.replace(/&quot;/g,'"'));
-    console.log(occupations, statuses)
     populateSelectpickers();
 
     if(action=='edit' && employee_id){
@@ -140,13 +139,12 @@ function populateEditingEmployeeData(id){
         .then((resp) => resp.json())
         .then(function(data) {
             var employee = data;
-            console.log(employee)
             if(employee && employee[0] && employee[0].id){
                 employee = employee[0];
                 document.getElementById('name').value = employee.name;
                 document.getElementById('dob').value = employee.dob;
-                document.getElementById('occupation').value = employee.occupation;
-                document.getElementById('status').value = employee.status;
+                document.getElementById('occupation').value = employee.occupation_id;
+                document.getElementById('status').value = employee.status_id;
                 document.getElementById('other').value = employee.other;
             }
         

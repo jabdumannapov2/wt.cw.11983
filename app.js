@@ -70,7 +70,7 @@ app.get('/edit/:id', (request, response)=>{
     let occupations = fs.readFileSync(appRoot + '/data/occupation.json', 'utf8');
     let statuses = fs.readFileSync(appRoot + '/data/status.json', 'utf8');
     response.render('add', {
-        title: "Employee: Create",
+        title: "Employee: Edit",
         action: 'edit',
         id: request.params.id,
         occupations: occupations,
