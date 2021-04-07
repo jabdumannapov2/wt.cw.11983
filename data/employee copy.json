@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Javokhir Abdumannopov",
+    "dob": "01.01.1996",
+    "occupation_id": "2",
+    "status_id": "3",
+    "other": "other text"
+  },
+  {
+    "id": "95eaeff6-fda5-4aed-a0df-29b841eba974",
+    "name": "javokhir javokhirov",
+    "dob": "11.01.1996",
+    "occupation_id": "1",
+    "status_id": "1",
+    "other": "some text"
+  }
+]
