@@ -1,0 +1,21 @@
+extends layout.pug
+block hr_service
+    script(src='/assets/index.js')
+    script window.occupations = `#{occupations}`; window.statuses = `#{statuses}`;
+    
+    h1= title
+
+    button 
+        a(href='/add', style='text-decoration: none;') add
+    br
+    table(cellpadding = '10', cellspacing = '1', border = '1', id = 'employeesTable')
+        thead
+            tr
+                th ID
+                th Name
+                th Birth date
+                th Occupation
+                th Status
+                th Other
+                th Action
+        tbody
