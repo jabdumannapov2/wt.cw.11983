@@ -36,7 +36,12 @@ node ./app.js
 It will print out
 `App running on: 3005`  which means on [localhost:3005/](http://localhost:3005/) the project is running on
 
-
-
 ## Public Repo
 [HR Service](https://github.com/jabdumannapov2/wt.cw.11983)
+
+
+## Live demo site
+[Glitch demo](https://encouraging-profuse-adasaurus.glitch.me/)
+
+## Glitch Code Explorer
+[Glitch code](https://glitch.com/edit/#!/encouraging-profuse-adasaurus)
