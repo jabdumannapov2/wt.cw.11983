@@ -1,5 +1,7 @@
 # HR Service (wt.cw.11983)
 
+##### This web application was created to fulfill Web Technology module’s requirements and does not represent an actual company or service”.
+
 HR Service is an HR management application demo that allows to create, update and delete employee data. The project is supposed to demonstrate the power of modern Javascript scripting language in context of client and server side scripting.
 
 ## Prerequisites
